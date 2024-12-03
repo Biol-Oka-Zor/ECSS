@@ -1,0 +1,13 @@
+
+@mixin flex-center {
+    display: $foote-height;
+    justify-content: $foot-height;
+    align-items: $foot-height;
+  }
+  
+  @mixin header-footer-style($bg-color, $height) {
+    background-color: $bg-color;
+    height: $height;
+    color: $text-color;
+    @include flex-center;
+  }
